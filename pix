@@ -1,0 +1,269 @@
+
+C:\Users\MVIT>D;
+'D' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\MVIT>D:
+
+D:\>cd ico28
+The system cannot find the path specified.
+
+D:\>cd ic028
+
+D:\ic028>cd p7
+
+D:\ic028\p7>cd e7
+The system cannot find the path specified.
+
+D:\ic028\p7>cd e7.txt
+The directory name is invalid.
+
+D:\ic028\p7>git init
+Initialized empty Git repository in D:/ic028/p7/.git/
+
+D:\ic028\p7>git add .
+
+D:\ic028\p7>git commit -m "c1"
+[master (root-commit) c0c18b5] c1
+ 1 file changed, 2 insertions(+)
+ create mode 100644 e7.txt
+
+D:\ic028\p7>git add .
+
+D:\ic028\p7>git commit -m "c2"
+[master d90af98] c2
+ 1 file changed, 1 insertion(+)
+
+D:\ic028\p7>git add .
+
+D:\ic028\p7>git commit -m "c2"
+[master 1ca0674] c2
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+D:\ic028\p7>git commit -m "c3"
+On branch master
+nothing to commit, working tree clean
+
+D:\ic028\p7>git add .
+
+D:\ic028\p7>git commit -m "c4"
+[master 6765fa5] c4
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+D:\ic028\p7>git add .
+
+D:\ic028\p7>git commit -m "c5"
+[master cec6e80] c5
+ 1 file changed, 2 insertions(+)
+
+D:\ic028\p7>git tag v1.0 c0c18b5
+
+D:\ic028\p7>git log
+commit cec6e806ff811a7287c1cb4e619e2499848d3528 (HEAD -> master)
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:42:53 2024 +0530
+
+    c5
+
+commit 6765fa510e1e2073c1db793e39b18dc2f0c1b2d0
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:42:28 2024 +0530
+
+    c4
+
+commit 1ca0674f1e2d16035c18d508f5ef470e10cc267e
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:41:45 2024 +0530
+
+    c2
+
+commit d90af98ed86fe34b61647aeb80855a481c328ae0
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:41:11 2024 +0530
+
+    c2
+
+commit c0c18b57165dfb1fe7c564c48beb05d9b5237af7 (tag: v1.0)
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:40:25 2024 +0530
+
+    c1
+(END)
+commit cec6e806ff811a7287c1cb4e619e2499848d3528 (HEAD -> master)
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:42:53 2024 +0530
+
+    c5
+
+commit 6765fa510e1e2073c1db793e39b18dc2f0c1b2d0
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:42:28 2024 +0530
+
+    c4
+
+commit 1ca0674f1e2d16035c18d508f5ef470e10cc267e
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:41:45 2024 +0530
+
+    c2
+
+commit d90af98ed86fe34b61647aeb80855a481c328ae0
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:41:11 2024 +0530
+
+    c2
+
+commit c0c18b57165dfb1fe7c564c48beb05d9b5237af7 (tag: v1.0)
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:40:25 2024 +0530
+
+    c1
+commit cec6e806ff811a7287c1cb4e619e2499848d3528 (HEAD -> master)
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:42:53 2024 +0530
+
+    c5
+
+commit 6765fa510e1e2073c1db793e39b18dc2f0c1b2d0
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:42:28 2024 +0530
+
+    c4
+
+commit 1ca0674f1e2d16035c18d508f5ef470e10cc267e
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:41:45 2024 +0530
+
+    c2
+
+commit d90af98ed86fe34b61647aeb80855a481c328ae0
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:41:11 2024 +0530
+
+    c2
+
+commit c0c18b57165dfb1fe7c564c48beb05d9b5237af7 (tag: v1.0)
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:40:25 2024 +0530
+
+    c1
+
+D:\ic028\p7>git add .
+warning: in the working copy of 'c3', LF will be replaced by CRLF the next time Git touches it
+
+D:\ic028\p7>git add .
+
+D:\ic028\p7>git commit -m "c6"
+[master 0c62b40] c6
+ 2 files changed, 30 insertions(+), 1 deletion(-)
+ create mode 100644 c3
+
+D:\ic028\p7>git tag v1.1 0c62b40
+
+D:\ic028\p7>git log
+commit 0c62b40aea81757204d21f2722cdbd20a75e4529 (HEAD -> master, tag: v1.1)
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:49:05 2024 +0530
+
+    c6
+
+commit cec6e806ff811a7287c1cb4e619e2499848d3528
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:42:53 2024 +0530
+
+    c5
+
+commit 6765fa510e1e2073c1db793e39b18dc2f0c1b2d0
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:42:28 2024 +0530
+
+    c4
+
+commit 1ca0674f1e2d16035c18d508f5ef470e10cc267e
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:41:45 2024 +0530
+
+    c2
+
+commit d90af98ed86fe34b61647aeb80855a481c328ae0
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:41:11 2024 +0530
+
+    c2
+
+commit c0c18b57165dfb1fe7c564c48beb05d9b5237af7 (tag: v1.0)
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:40:25 2024 +0530
+
+    c1
+
+D:\ic028\p7>git tag -d v1.1
+Deleted tag 'v1.1' (was 0c62b40)
+
+D:\ic028\p7>git tag -l
+v1.0
+
+D:\ic028\p7>git log c1^..c3
+fatal: ambiguous argument 'c1..c3': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+D:\ic028\p7>git cherry_pick c1^..c3
+git: 'cherry_pick' is not a git command. See 'git --help'.
+
+The most similar command is
+        cherry-pick
+
+D:\ic028\p7>git cherry-pick c1^..c4
+fatal: bad revision 'c1..c4'
+
+D:\ic028\p7>git cherry-pick c1^..c6
+fatal: bad revision 'c1..c6'
+
+D:\ic028\p7>git cherry-pick c1
+fatal: bad revision 'c1'
+
+D:\ic028\p7>git cherry-pick  c0c18b5
+Auto-merging e7.txt
+CONFLICT (add/add): Merge conflict in e7.txt
+error: could not apply c0c18b5... c1
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+hint: Disable this message with "git config advice.mergeConflict false"
+
+D:\ic028\p7>git log
+commit 0c62b40aea81757204d21f2722cdbd20a75e4529 (HEAD -> master)
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:49:05 2024 +0530
+
+    c6
+
+commit cec6e806ff811a7287c1cb4e619e2499848d3528
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:42:53 2024 +0530
+
+    c5
+
+commit 6765fa510e1e2073c1db793e39b18dc2f0c1b2d0
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:42:28 2024 +0530
+
+    c4
+
+commit 1ca0674f1e2d16035c18d508f5ef470e10cc267e
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:41:45 2024 +0530
+
+    c2
+
+commit d90af98ed86fe34b61647aeb80855a481c328ae0
+Author: charitha <charitha@gmail.com>
+Date:   Mon Dec 2 11:41:11 2024 +0530
+
+    c2
+
+D:\ic028\p7>
